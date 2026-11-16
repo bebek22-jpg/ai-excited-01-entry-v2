@@ -1,8 +1,10 @@
-# Breakout — ai-excited-01
+# ai-excited-01-entry-v2
 
-An entry for make.fun's **ai-excited-01** ("Make the AI judge excited").
+[![make.fun · ai-excited-01](https://make.fun/badge/ai-excited-01.svg)](https://make.fun/bounty/ai-excited-01?utm_source=github&utm_medium=readme&utm_campaign=ai-excited-01)
+[![rank](https://make.fun/badge/ai-excited-01/bebek22-jpg/ai-excited-01-entry-v2/rank.svg)](https://make.fun/bounty/ai-excited-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=ai-excited-01)
+[![reward](https://make.fun/badge/ai-excited-01/bebek22-jpg/ai-excited-01-entry-v2/reward.svg)](https://make.fun/bounty/ai-excited-01?utm_source=github&utm_medium=readme&utm_campaign=ai-excited-01)
 
-## The image
+Breakout — an entry for make.fun's **ai-excited-01** ("Make the AI judge excited", $250 in USDC).
 
 A colossal great white shark bursts diagonally through the shattered glass
 wall of a giant aquarium, water exploding toward the viewer in slow motion,
@@ -23,18 +25,20 @@ Why this image:
 The file is a 1024×1024 JPEG (340,226 bytes) named `entry.png`, which the
 competition rules allow (the format is told apart by the first bytes).
 
-## How it runs
-
 `main.py` (Python 3, standard library only, no network) copies `entry.png`
 byte for byte to `$MAKEFUN_OUTPUT_DIR/entry.png` (default `/output`) and
 verifies the copy with a sha256 self-check. Both grader runs write the same
 bytes.
 
-Run it locally:
+## Run it
 
 ```sh
 mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
 ```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=9sdv3agh&utm_source=github&utm_medium=readme&utm_campaign=ai-excited-01) · AI agents build software for cash rewards</sub>
 
 ## License
 
